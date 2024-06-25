@@ -40,8 +40,6 @@ def consulta_id(id:str):
 def insert(create_data:movieSchema):
     try:
         data = create_data.dict()
-        #data.pop("id")
-        #print(data)
         conn.create(data)
         return {"message": "Creado correctamente"}
     except Exception as err:
