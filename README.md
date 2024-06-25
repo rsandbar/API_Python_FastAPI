@@ -18,6 +18,6 @@ También se adjunta la creación del esquema y la tabla en el archivo Creacion_B
 
 Para generar el archivo requeriments.txt usamos el siguiente comando:
     
-    pip freeze > requeriments.txt
+    pip freeze > requirements.txt
 
 
